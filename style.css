@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
 
 :root {
-  --bg-color: #FF8A8A;
-  --primary-color: #F4DEB3;
-  --secundary-color: #3563c7;
+  --bg-color: #ffffff;
+  --primary-color: #03034d;
+  --secundary-color: #000000;
   --font: Gluten;
 }
 body {
