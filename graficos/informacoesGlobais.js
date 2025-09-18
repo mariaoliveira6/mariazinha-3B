@@ -6,7 +6,8 @@ async function vizualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Em nossa sala, temos <span>${dados.Solteiro}</span> solteiros, enquanto que <span>${dados.Namorando}</span> estão namorando. Há <span>${dados.Enrolado}</span> enrolados. Por fim, temos <span>${dados.Fundo_poco}</span> no fundo do poço e <span>${dados.Casado}</span> casados.`
+    paragrafo.innerHTML = `Quem são os artistas que dominaram as paradas em 2024? Veja no gráfico os músicos mais ouvidos no Spotify e descubra os fenômenos que conquistaram os fãs ao redor do mundo!
+    Os três medalhistas são: A campeã, temos a Taylor Swift com <span>${dados.TAYLOR_SWIFT}</span> bilhões de ouvintes, em segundo lugar, The Weeknd, tendo <span>${dados.THE_WEEKND}</span> bilhões. Em medalha de bronze, Bad Bunny, com <span>${dados.BAD_BUNNY}</span> bilhões de ouvintes. `
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo);
 }
